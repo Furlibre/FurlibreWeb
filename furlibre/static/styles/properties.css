@@ -4,13 +4,14 @@
 
 :root {
     /* Cores Gerais */
-    --dark-color: #252430ff;
+    --dark-color: rgb(44, 43, 59);
     --light-color: #f5f0fcec;
     --current-back-color: var(--dark-color);
     --current-text-color: var(--light-color);
-
+    --neutral-dark: rgba(37, 36, 48, 0.495);
     /* Cores do Tema */
     --theme-color: #29ca8a;
+    --theme-babilonic: #7d4cde;
     --error-color: #e62169;
     --success-color: var(--theme-color);
 
@@ -46,14 +47,14 @@
     --border-radius: 16px;
     --box-shadow: 0 0px 8px rgba(0, 0, 0, 0.375);
 
-    --sec-dark: rgba(56, 55, 73, 0.647);
+    --sec-dark: rgba(61, 60, 77, 0.779);
     --neutral-color: rgba(103, 97, 134, 0.245);
     --transition-duration: 0.3s;
 }
 
 /* Modo Claro (Exceção) */
 :root.light-theme {
-    --current-back-color: #e8ddf6ec;
+    --current-back-color: #e8ddf6;
     --current-text-color: rgb(76, 75, 97);
     --sec-dark: rgba(186, 178, 206, 0.588);
     --theme-color: #27b17a;

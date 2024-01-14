@@ -1,7 +1,17 @@
+{% include 'components/splash.html' %}
+
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
 <script >
     AOS.init();
+    document.addEventListener('DOMContentLoaded', () => {
+        const SPLASH_LOADING = document.getElementById('splashScreenId');
+        setTimeout(() => {
+            SPLASH_LOADING.classList.add('opacity0');
+        }, 500);
+        
+    })
 </script>
 
 <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+<script src="{{ url_for('static', filename='js/dyna.js') }}"></script>

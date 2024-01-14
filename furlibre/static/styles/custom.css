@@ -6,6 +6,11 @@
     aspect-ratio: 1/1;
 }
 
+.applyNoBack{
+    background-color: transparent !important;
+    box-shadow: 0px 1px 0px var(--neutral-color) !important;
+}
+
 nav{
     box-shadow: var(--box-shadow);
 }
