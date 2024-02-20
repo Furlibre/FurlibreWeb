@@ -1,10 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 :root {
     /* Cores Gerais */
-    --dark-color: rgb(29, 27, 35);
+    --dark-color: rgb(35, 34, 40);
     --light-color: #f5f0fcec;
     --current-back-color: var(--dark-color);
     --current-text-color: var(--light-color);
@@ -25,8 +23,9 @@
     --primary-bt-text-size: 10pt;
 
     /* Fontes */
+    --font-family-logo: 'Unbounded', sans-serif;
     --font-family-primary: 'Unbounded', sans-serif;
-    --font-family-secondary: 'Geologica', sans-serif;
+    --font-family-secondary: 'Unbounded', sans-serif;
 
     /* Espaçamentos */
     --padding-small: 8px;
@@ -47,15 +46,15 @@
     --border-radius: 16px;
     --box-shadow: 0 0px 8px rgba(0, 0, 0, 0.375);
 
-    --sec-dark: rgba(53, 47, 62, 0.779);
+    --sec-dark: rgba(52, 50, 57, 0.779);
     --neutral-color: rgba(103, 97, 134, 0.245);
     --transition-duration: 0.3s;
 }
 
 /* Modo Claro (Exceção) */
 :root.light-theme {
-    --current-back-color: #e8ddf6;
+    --current-back-color: #ece6f5;
     --current-text-color: rgb(76, 75, 97);
-    --sec-dark: rgba(186, 178, 206, 0.588);
+    --sec-dark: rgba(209, 204, 224, 0.588);
     --theme-color: #27b17a;
 }

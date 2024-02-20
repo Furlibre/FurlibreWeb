@@ -1,17 +1,11 @@
 <nav class="borderBox noBack"">
     <section class="flex rowFlex alignCenter paddingLarge borderBox gapLarge">
         <a href="/">
-            <div class="flex alignCenter rowFlex">
-                
-                    <img src="{{ url_for('static', filename='favicon.svg') }}" height="52px">
-                    <h3>FURLIBRE</h3>
-                
-                
-            </div>
+            <img src="{{ url_for('static', filename='favicon.svg') }}" height="48px">
         </a>
         <span class="flexExpand"></span>
 
-        <a href="#" class="aT">Sobre</a>
+        <a href="#" class="aT disabled">Sobre</a>
         <button id="themeBtn" class="selectorButton themeSelector">
             <i id="themeIcon" class="fas fa-adjust"></i>
         </button>

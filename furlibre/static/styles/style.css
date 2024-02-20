@@ -6,7 +6,12 @@
     transition: color var(--transition-duration) ease-in-out, background-color var(--transition-duration) ease-in-out;
 }
 
-h1{ font-size: var(--h1-text-size); }
+h1{ 
+    font-size: var(--h1-text-size);
+    font-weight: 900;
+    line-height: 48px;
+    overflow: visible;
+}
 
 h2{ font-size: var(--h2-text-size); }
 
@@ -52,6 +57,10 @@ a{
     opacity: 1;
 }
 
+.logoFont{
+    font-family: var(--font-family-logo);
+}
+
 .aT{
     padding: 4px 0px 4px 0px;
     opacity: 0.8;
@@ -92,6 +101,25 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('/static/circle.svg');
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+@keyframes start_circle {
+    0%{
+        
+        background-size: 40%;
+    } 
+    50%{
+        background-size: 45%;
+    }
+    100%{
+        background-size: 40%;
+    }
 }
 
 section{
@@ -101,8 +129,8 @@ section{
 
 nav{
     z-index: 100;
-    height: 72px;
-    max-height: 72px;
+    height: 82px;
+    max-height: 82px;
     background-color: var(--sec-dark);
     position: fixed !important;
     top: 0;
@@ -115,6 +143,9 @@ nav{
     backdrop-filter: blur(8px);
 }
 
+.disabled{
+    opacity: 0.3 !important;
+}
 /*
 nav *{
     color: var(--light-color) !important;
@@ -283,16 +314,7 @@ nav *{
     overflow: hidden;
 }
 
-.aos-init{
-    opacity: 0;
-    transform: translateY(32px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
 
-.aos-animate {
-    opacity: 1;
-    transform: translateY(0);
-}
 
 footer{
     background-color: var(--sec-dark);
