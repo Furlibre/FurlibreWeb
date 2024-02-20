@@ -4,7 +4,7 @@
 
 :root {
     /* Cores Gerais */
-    --dark-color: rgb(44, 43, 59);
+    --dark-color: rgb(29, 27, 35);
     --light-color: #f5f0fcec;
     --current-back-color: var(--dark-color);
     --current-text-color: var(--light-color);
@@ -47,7 +47,7 @@
     --border-radius: 16px;
     --box-shadow: 0 0px 8px rgba(0, 0, 0, 0.375);
 
-    --sec-dark: rgba(61, 60, 77, 0.779);
+    --sec-dark: rgba(53, 47, 62, 0.779);
     --neutral-color: rgba(103, 97, 134, 0.245);
     --transition-duration: 0.3s;
 }

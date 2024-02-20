@@ -58,7 +58,7 @@ a{
     font-weight: 600;
     font-size: var(--primary-bt-text-size);
     font-family: var(--font-family-primary) !important;
-    background-image: linear-gradient(to right, var(--theme-color), var(--theme-babilonic));
+    background-image: linear-gradient(to right, var(--theme-color), var(--theme-color));
     background-size: 0% 0.2em;
     background-position-y: 100%;
     background-position-x: 100%;
